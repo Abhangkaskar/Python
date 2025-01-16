@@ -22,4 +22,4 @@ while attempts < max_attempts:
     attempts +=1
     
 if abs(secret_number - guess) <=5:
-    print("You're very close!")
+    print("You win the game.")
